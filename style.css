@@ -22,7 +22,6 @@
   *:focus {
     outline: none;
   }
-  
   html {
     -webkit-tap-highlight-color: transparent;
     -webkit-text-size-adjust: 100%;
