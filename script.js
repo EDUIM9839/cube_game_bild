@@ -1,7 +1,6 @@
 
 const animationEngine = (() => {
     let uniqueID = 0;
-  
     class AnimationEngine {
       constructor() {
         this.ids = [];
