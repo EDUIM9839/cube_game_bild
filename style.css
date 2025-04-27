@@ -1,0 +1,57 @@
+[data-aos] {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.8s ease-out;
+  }
+  
+  [data-aos].aos-animate {
+    opacity: 1;
+    transform: none;
+  }
+  
+  /* Fade Animations */
+  [data-aos="fade-up"] {
+    transform: translateY(50px);
+  }
+  [data-aos="fade-down"] {
+    transform: translateY(-50px);
+  }
+  
+  /* Slide Animations */
+  [data-aos="slide-left"] {
+    transform: translateX(100px);
+  }
+  [data-aos="slide-right"] {
+    transform: translateX(-100px);
+  }
+  
+  /* Zoom Animations */
+  [data-aos="zoom-in"] {
+    transform: scale(0.5);
+  }
+  [data-aos="zoom-out"] {
+    transform: scale(1.5);
+  }
+  
+  /* Flip Animations */
+  [data-aos="flip-right"] {
+    transform: rotateY(90deg);
+  }
+  [data-aos="flip-left"] {
+    transform: rotateY(-90deg);
+  }
+  
+  /* Easing Variations (optional) */
+  [data-aos][data-aos-easing="linear"] {
+    transition-timing-function: linear;
+  }
+  [data-aos][data-aos-easing="ease-in"] {
+    transition-timing-function: ease-in;
+  }
+  [data-aos][data-aos-easing="ease-out"] {
+    transition-timing-function: ease-out;
+  }
+  [data-aos][data-aos-easing="ease-in-out"] {
+    transition-timing-function: ease-in-out;
+  }
+  
